@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "CopyLink2Clipboard4Markdown",
+  "version": "0.0.1",
+  "description": "copy the URL to clipboard for Markdown",
+
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "permissions": ["activeTab"],
+  "icons": {
+    "128": "icon.png"
+  }
+}

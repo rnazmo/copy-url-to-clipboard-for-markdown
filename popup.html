@@ -3,10 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <title>CopyLink2Clipboard4Markdown</title>
+    <style>
+      .header-title {
+        font-size: 14px;
+        font-weight: normal;
+      }
+      #result {
+        font-size: 14px;
+        height: 5rem;
+        width: 24rem;
+        text-align: top;
+      }
+    </style>
   </head>
   <body>
-    <p>Hello from popup.html!!</p>
-    <textarea id="result" rows="5" cols="60"></textarea>
-    <script src="popup.js"></script>
+    <header>
+      <h1 class="header-title">CopyLink2Clipboard4Markdown</h1>
+    </header>
+    <div class="root">
+      <textarea id="result" rows="4" cols="60" type="text"></textarea>
+      <button id="copy">Copy</button>
+      <script src="popup.js"></script>
+    </div>
+
+    <script src="copyButton.js"></script>
   </body>
 </html>

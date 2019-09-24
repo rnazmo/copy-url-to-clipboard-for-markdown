@@ -15,8 +15,11 @@ chrome.tabs.query({ active: true, lastFocusedWindow: true }, function(tab) {
   result.value = contents;
 
   // for debug
-  // console.log(activeTab.title);
+  console.log(activeTab.title);
 
   // Select the textarea.
   result.select();
+
+  // Copy result to clipboard.
+  document.execCommand('copy');
 });

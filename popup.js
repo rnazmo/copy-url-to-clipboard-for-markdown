@@ -8,8 +8,8 @@ chrome.tabs.query({ active: true, lastFocusedWindow: true }, function(tab) {
   var result = document.getElementById('result');
   var activeTab = tab[0];
 
-  var contents = 'title: ' + activeTab.title + '\n';
-  contents += 'url: ' + activeTab.url + '\n';
+  // TODO: 特定の URL のとき, title を良い感じに加工する（自分用）
+  let contents = generateMarkdownLink(activeTab.title, activeTab.url);
 
   // Update textarea.
   result.value = contents;
@@ -23,3 +23,8 @@ chrome.tabs.query({ active: true, lastFocusedWindow: true }, function(tab) {
   // Copy result to clipboard.
   document.execCommand('copy');
 });
+
+function generateMarkdownLink(title, url) {
+  let markdownLink = '[' + title + '](' + url + ')';
+  return markdownLink
+}

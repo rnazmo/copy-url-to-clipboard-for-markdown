@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "CopyLink2Clipboard4Markdown",
+  "name": "cpurl2q4md",
   "version": "0.0.1",
-  "description": "copy the URL to clipboard for Markdown",
+  "description": "copy URL to clipboard for Markdown",
 
   "browser_action": {
     "default_popup": "popup.html",

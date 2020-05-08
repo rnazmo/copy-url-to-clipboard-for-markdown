@@ -1,2 +1,5 @@
-# CopyLink2Clipboard4Markdown
+# cpurl2q4md
+
 Chrome Extension.
+
+Copy URL to clipboard for Markdown.

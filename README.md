@@ -20,8 +20,17 @@ $ cd ~/repos && \
 
 ## TODO
 
+### Priority: ☆☆☆
+
+- [ ] Manifest V3 対応 (Manifest V2 ではもう動かない)
+
+### Priority: ☆☆
+
 - [ ] TODO を GitHub Issues から README.md 内へ移動する
+- [ ] FireFox 対応
 - [ ] git tag を追加する
+
+### Priority: ☆
 
 ## Log
 

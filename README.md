@@ -17,3 +17,12 @@ $ cd ~/repos && \
   git clone --filter=blob:none git@github.com:rnazmo/copy-url-to-clipboard-for-markdown.git
 
 ```
+
+## TODO
+
+- [ ] TODO を GitHub Issues から README.md 内へ移動する
+- [ ] git tag を追加する
+
+## Log
+
+- 2024-07-02 TODO の管理場所を GitHub Issues から README.md 内へ変更
